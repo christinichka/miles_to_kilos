@@ -30,7 +30,7 @@ miles_to_km_label = Label(text="0")
 miles_to_km_label.grid(column=1, row=1)
 
 #Button
-calc_button = Button(text="Calculate", command=miles_to_km_label)
+calc_button = Button(text="Calculate", command=miles_to_km)
 calc_button.grid(column=1, row=2)
 
 
